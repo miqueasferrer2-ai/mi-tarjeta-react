@@ -1,0 +1,30 @@
+body {
+  background-color: lightgray;
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tarjeta {
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  text-align: center;
+  padding: 15px;
+}
+
+.tarjeta img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
